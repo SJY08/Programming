@@ -29,4 +29,18 @@
     -   SNS에서 링크를 공유 했을 때, 해당 웹의 정보를 이미지와 설명으로 표시 해주는 **OG(Open Graph) Tag**를 페이지 별로 적용하여 SEO 최적화 가능
 
 **동작과정**
-[image](https://velog.velcdn.com/images/rl0425/post/e100da76-ee04-4638-a439-35cbfc9c4ffe/image.png)
+![image](https://velog.velcdn.com/images/rl0425/post/e100da76-ee04-4638-a439-35cbfc9c4ffe/image.png)
+
+> 클라이언트 사이드 렌더링 ( Client Side Rendering, CSR)
+
+-   **CSR**이란? 서버가 클라이언트에 필요한 스크립트와 스타일이 포함된 HTML 마크업만 전송해, 클라이언트에서 렌더링이 이뤄지는 방식
+
+> CSR의 장점
+
+-   **쉬운 페이지 전환**
+    -   화면을 새로 고칠 필요 없이 다른 페이지로 이동 가능
+-   **지연된 로딩(lazy loading)과 성능**
+    -   최소로 필요한 HTML 마크업만 렌더링
+-   **서버 부하 감소**
+    -   전체 렌더링 과정이 클라이언트에서 일어나기에 서버가 할 일은 HTML 페이지 전송뿐
+    -   서버리스 환경에서 웹 앱 제공 가능
